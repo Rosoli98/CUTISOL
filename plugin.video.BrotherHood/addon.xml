@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.BrotherHood"
+       name="[COLOR red]BrotherHood[/COLOR]"
+       version="1.1"
+       provider-name="[COLOR white]KODI PR[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />    
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>BrotherHood By KODI PR</summary>
+    <description>Para el disfrute de todos, este add-on es una colaboración de todos los miembros del Staff de Kodi: Ariel, Manuel, El Wiki, Wendell, Osvaldo, Luis, Cisco, Carmen y Talito. This add-on does not own, host or have any control of any channel. All the content found on this add-on is free and available over the internet. The use of this add-on may be illegal in some countries.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
